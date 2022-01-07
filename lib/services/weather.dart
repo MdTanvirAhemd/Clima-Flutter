@@ -10,7 +10,7 @@ class WeatherModel {
         '$openWeatherMapURL?q=$cityName&appid=$apiKey&units=metric');
 
     var weatherData = await networkHelper.getData();
-    return weatherData;
+     return weatherData;
   }
 
   Future<dynamic> getLocationWeather() async {
